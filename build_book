@@ -1,0 +1,9 @@
+#!/bin/bash
+
+cp -r ./docs/GitbookDoku ./
+rm -rf ./docs/*
+mv ./GitbookDoku ./docs/
+gitbook build ./docs/GitbookDoku/ -o ./docs/GitbookDoku/_book
+cp -a ./docs/GitbookDoku/_book/* ./docs/
+
+
