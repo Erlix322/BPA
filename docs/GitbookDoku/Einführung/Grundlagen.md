@@ -1,5 +1,7 @@
-# Chef Grundlagen
-Wie der Name vermuten lässt, verwaltet Chef (engl. Koch) eine Reihe von Kochbüchern und deren zugehörige Rezepte und Zutaten. Im Folgenden wird die Struktur der Beispielanwendung erläutert und auf die Begriffe näher eingegangen.
+# Ziel des Buchs
+Industrie 4.0, IoT, CI/CD, dockerized... Kein anderes Fachgebiet scheint über die Jahre hinweg so vielen Buzzwords ausgesetzt wie die Informatik. Allein in einem Teammeeting innerhalb des IT Bereichs kann ein normalsterblicher, so scheint es, schon keiner Konversation folgen, ohne einen Thesaurus bei der Hand zu haben, der ihm in die Magie der Thematik einzuführen vermag.
+
+Ziel dieses Buches ist es anhand einer Studienarbeit einen möglichst großen Querschnitt über alle Themengebiete zu geben.
 
 ## Verzeichnis Struktur {#struktur}
 
