@@ -65,7 +65,7 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="Grundlagen.html" />
+    <link rel="next" href="DasProjekt.html" />
     
     
     <link rel="prev" href="../" />
@@ -112,9 +112,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.2" data-path="UeberChef.html">
+        <li class="chapter active" data-level="1.2" data-path="ZielDesBuches.html">
             
-                <a href="UeberChef.html">
+                <a href="ZielDesBuches.html">
             
                     
                     Ziel dieses Buches
@@ -125,12 +125,12 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3" data-path="Grundlagen.html">
+        <li class="chapter " data-level="1.3" data-path="DasProjekt.html">
             
-                <a href="Grundlagen.html">
+                <a href="DasProjekt.html">
             
                     
-                    Chef Grundlagen
+                    Das Projekt
             
                 </a>
             
@@ -139,12 +139,38 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.3.1" data-path="Grundlagen.html">
+        <li class="chapter " data-level="1.3.1" data-path="DasProjekt.html">
             
-                <a href="Grundlagen.html#struktur">
+                <a href="DasProjekt.html#Grundlagen">
             
                     
-                    Verzeichnis Struktur
+                    Grundladen
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="DasProjekt.html">
+            
+                <a href="DasProjekt.html#vision">
+            
+                    
+                    Vision
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="DasProjekt.html">
+            
+                <a href="DasProjekt.html#projektplan">
+            
+                    
+                    Projektplan
             
                 </a>
             
@@ -477,44 +503,8 @@
                                 
                                 <h1 id="ziel-dieses-buches"><a name="ziel-dieses-buches" class="plugin-anchor" href="#ziel-dieses-buches"><i class="fa fa-link" aria-hidden="true"></i></a>Ziel dieses Buches</h1>
 <p>Industrie 4.0, IoT, CI/CD, dockerized... Kein anderes Fachgebiet scheint &#xFC;ber die Jahre hinweg so vielen Buzzwords ausgesetzt wie die Informatik. Allein in einem Teammeeting innerhalb des IT Bereichs kann ein normalsterblicher, so scheint es, schon keiner Konversation folgen, ohne einen Thesaurus bei der Hand zu haben, der ihm in die Magie der Thematik einzuf&#xFC;hren vermag.</p>
-<p>Ziel dieses Buches ist es anhand einer Studienarbeit einen m&#xF6;glichst gro&#xDF;en Querschnitt &#xFC;ber alle Themengebiete zu geben.</p>
+<p>Ziel dieses Buches ist es anhand einer Studienarbeit einen m&#xF6;glichst gro&#xDF;en Querschnitt &#xFC;ber alle Themengebiete zu geben, die n&#xF6;tig sind, um verschiedene Aspekte moderner Systemarchitekturen zu betrachten.</p>
 <h2 id="ausgangssituation"><a name="ausgangssituation" class="plugin-anchor" href="#ausgangssituation"><i class="fa fa-link" aria-hidden="true"></i></a>Ausgangssituation</h2>
-<p><em>&quot;Fortbildungszentren besitzen Seminarr&#xE4;ume, in denen sich viele Computer befinden, welche von
-den Teilnehmern zur Bearbeitung ihrer Aufgaben verwendet werden. Je nachdem was in dem ak-
-tuellen Seminar vermittelt wird, m&#xFC;ssen die Computer mit der entsprechenden Software versehen
-sowie vorkonfiguriert werden. In diesem Szenario geht es darum, einen Seminarraum bzgl. einer
-Webentwicklungsfortbildung vorzubereiten.&quot;</em></p>
-<h2 id="zielstellung"><a name="zielstellung" class="plugin-anchor" href="#zielstellung"><i class="fa fa-link" aria-hidden="true"></i></a>Zielstellung</h2>
-<p>Das Resultat aus diesem Beleg, soll ein Chef-Cookbook sein, welches alle in der folgenden Sektion genannten Anforderungen abdeckt. Zudem soll das Cookbook exemplarisch auf einer Client-VM (PC eines Teilnehmers) ausgerollt werden.</p>
-<p>Das Betriebssystem worauf das Cookbook ausgerichtet sein soll, ist eine Ubuntu Desktop Distribution. Die nachstehende Auflistung umfasst eine Beschreibung aller Aufgaben, die im Rahmen
-dieses Belegs zu erledigen sind.</p>
-<ul>
-<li>Einrichten der Chef-Server-Umgebung</li>
-<li>Anlegen eines Nutzers f&#xFC;r das Labor<ul>
-<li>Name: labornutzer&#x201C;</li>
-<li>Passwort: nutzer@labor123&#x201C;</li>
-<li>Gruppe: users&#x201C;</li>
-<li>Home directory: /home/labornutzer</li>
-</ul>
-</li>
-<li>Konfigurieren des Proxy-Servers (http    proxy/https proxy/HTTP PROXY/HTTPS PROXY)<ul>
-<li>/etc/environment</li>
-<li>in /home/labornutzer/.bashrc (Alternativ: /home/student/.bashrc)</li>
-</ul>
-</li>
-<li>Installation der Konsolenanwendungen vim und htop</li>
-<li>Installation eines Apache Web-Servers</li>
-<li>Installation einer normalen Eclipse-Umgebung</li>
-<li>Installation einer MySQL Datenbank (Alternativ MariaDB)</li>
-<li>Installation Firefox sowie Google Chrome oder Chromium</li>
-<li>Entfernen von LibreOffice</li>
-<li>Installation einer Firewall<ul>
-<li>&#x2013; Installation der Firewall</li>
-<li>&#x2013; Erlauben der Ports: 80, 443, 22</li>
-<li>&#x2013; Sperren der Ports: 3389</li>
-</ul>
-</li>
-</ul>
 
                                 
                                 </section>
@@ -547,7 +537,7 @@ dieses Belegs zu erledigen sind.</p>
                 </a>
                 
                 
-                <a href="Grundlagen.html" class="navigation navigation-next " aria-label="Next page: Chef Grundlagen">
+                <a href="DasProjekt.html" class="navigation navigation-next " aria-label="Next page: Das Projekt">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -558,7 +548,7 @@ dieses Belegs zu erledigen sind.</p>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Ziel dieses Buches","level":"1.2","depth":1,"next":{"title":"Chef Grundlagen","level":"1.3","depth":1,"path":"Einführung/Grundlagen.md","ref":"./Einführung/Grundlagen.md","articles":[{"title":"Verzeichnis Struktur","level":"1.3.1","depth":2,"anchor":"#struktur","path":"Einführung/Grundlagen.md","ref":"./Einführung/Grundlagen.md#struktur","articles":[]}]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"plugins":["expandable-chapters","anchors"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"expandable-chapters":{},"anchors":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"language":"de","gitbook":"*"},"file":{"path":"Einführung/UeberChef.md","mtime":"2018-06-20T05:37:37.805Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-06-20T05:37:39.056Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Ziel dieses Buches","level":"1.2","depth":1,"next":{"title":"Das Projekt","level":"1.3","depth":1,"path":"Einführung/DasProjekt.md","ref":"./Einführung/DasProjekt.md","articles":[{"title":"Grundladen","level":"1.3.1","depth":2,"anchor":"#Grundlagen","path":"Einführung/DasProjekt.md","ref":"./Einführung/DasProjekt.md#Grundlagen","articles":[]},{"title":"Vision","level":"1.3.2","depth":2,"anchor":"#vision","path":"Einführung/DasProjekt.md","ref":"./Einführung/DasProjekt.md#vision","articles":[]},{"title":"Projektplan","level":"1.3.3","depth":2,"anchor":"#projektplan","path":"Einführung/DasProjekt.md","ref":"./Einführung/DasProjekt.md#projektplan","articles":[]}]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"plugins":["expandable-chapters","anchors"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"expandable-chapters":{},"anchors":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"language":"de","gitbook":"*"},"file":{"path":"Einführung/ZielDesBuches.md","mtime":"2018-06-20T15:36:11.393Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-06-20T15:36:12.650Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

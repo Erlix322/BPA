@@ -1,9 +1,11 @@
 # Summary
 
 ### Kapitel I - Einführung
-* [Ziel dieses Buches](./Einführung/UeberChef.md)
-* [Chef Grundlagen](./Einführung/Grundlagen.md)
- * [Verzeichnis Struktur](./Einführung/Grundlagen.md#struktur)
+* [Ziel dieses Buches](./Einführung/ZielDesBuches.md)
+* [Das Projekt](./Einführung/DasProjekt.md)
+ * [Grundladen](./Einführung/DasProjekt.md#Grundlagen)
+ * [Vision](./Einführung/DasProjekt.md#vision)
+ * [Projektplan](./Einführung/DasProjekt.md#projektplan)
 * [Vorraussetzungen](./Einführung/Vorraussetzungen.md)
  * [Benötigte Software](./Einführung/Vorraussetzungen.md#software)
  * [Registrierung auf Chef.io](./Einführung/Vorraussetzungen.md#registrierung)

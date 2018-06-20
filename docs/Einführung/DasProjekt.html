@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Chef Grundlagen · GitBook</title>
+        <title>Das Projekt · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -65,10 +65,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="Grundlagen.html" />
+    <link rel="next" href="DasProjekt.html" />
     
     
-    <link rel="prev" href="UeberChef.html" />
+    <link rel="prev" href="ZielDesBuches.html" />
     
 
     </head>
@@ -112,9 +112,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2" data-path="UeberChef.html">
+        <li class="chapter " data-level="1.2" data-path="ZielDesBuches.html">
             
-                <a href="UeberChef.html">
+                <a href="ZielDesBuches.html">
             
                     
                     Ziel dieses Buches
@@ -125,12 +125,12 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.3" data-path="Grundlagen.html">
+        <li class="chapter active" data-level="1.3" data-path="DasProjekt.html">
             
-                <a href="Grundlagen.html">
+                <a href="DasProjekt.html">
             
                     
-                    Chef Grundlagen
+                    Das Projekt
             
                 </a>
             
@@ -139,12 +139,38 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.3.1" data-path="Grundlagen.html">
+        <li class="chapter " data-level="1.3.1" data-path="DasProjekt.html">
             
-                <a href="Grundlagen.html#struktur">
+                <a href="DasProjekt.html#Grundlagen">
             
                     
-                    Verzeichnis Struktur
+                    Grundladen
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="DasProjekt.html">
+            
+                <a href="DasProjekt.html#vision">
+            
+                    
+                    Vision
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="DasProjekt.html">
+            
+                <a href="DasProjekt.html#projektplan">
+            
+                    
+                    Projektplan
             
                 </a>
             
@@ -460,7 +486,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Chef Grundlagen</a>
+        <a href=".." >Das Projekt</a>
     </h1>
 </div>
 
@@ -475,31 +501,13 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="grundlagen"><a name="grundlagen" class="plugin-anchor" href="#grundlagen"><i class="fa fa-link" aria-hidden="true"></i></a>Grundlagen</h1>
-<p>Industrie 4.0, IoT, CI/CD, dockerized... Kein anderes Fachgebiet scheint &#xFC;ber die Jahre hinweg so vielen Buzzwords ausgesetzt wie die Informatik. Allein in einem Teammeeting innerhalb des IT Bereichs kann ein normalsterblicher, so scheint es, schon keiner Konversation folgen, ohne einen Thesaurus bei der Hand zu haben, der ihm in die Magie der Thematik einzuf&#xFC;hren vermag.</p>
-<p>Ziel dieses Buches ist es anhand einer Studienarbeit einen m&#xF6;glichst gro&#xDF;en Querschnitt &#xFC;ber alle Themengebiete zu geben.</p>
-<h2 id="struktur"><a name="struktur" class="plugin-anchor" href="#struktur"><i class="fa fa-link" aria-hidden="true"></i></a>Verzeichnis Struktur </h2>
-<p>Die untere Abbildung zeigt die Verzeichnisstruktur der Beispielanwendung.</p>
-<p>Hierbei ist das Verzeichnis <strong>cookbooks</strong> die Wurzel, die alle Kochb&#xFC;cher verwaltet.
-Das Kochbuch <strong>beleg</strong> besteht aus den einzelnen Rezepten (<strong>recipes</strong>).
-Das Verzeichnis <strong>files/default</strong> beinhaltet Dateien wie Textdateien oder diverse Skripte, welche in vereinzelten Rezepten ben&#xF6;tigt werden.</p>
-<pre><code>.
-&#x251C;&#x2500;&#x2500; cookbooks
-&#x2502;   &#x251C;&#x2500;&#x2500; beleg
-&#x2502;       &#x251C;&#x2500;&#x2500; attributes
-&#x2502;       &#x251C;&#x2500;&#x2500; files
-&#x2502;       &#x2502;   &#x2514;&#x2500;&#x2500; default
-&#x2502;       &#x251C;&#x2500;&#x2500; recipes
-&#x2502;       &#x251C;&#x2500;&#x2500; spec
-&#x2502;       &#x2502;   &#x2514;&#x2500;&#x2500; unit
-&#x2502;       &#x2502;       &#x2514;&#x2500;&#x2500; recipes
-&#x2502;       &#x251C;&#x2500;&#x2500; templates
-&#x2502;       &#x2514;&#x2500;&#x2500; test
-&#x2502;           &#x2514;&#x2500;&#x2500; smoke
-&#x2502;               &#x2514;&#x2500;&#x2500; default
-&#x2502;   
-&#x2502;
-</code></pre>
+                                <h1 id="das-projekt"><a name="das-projekt" class="plugin-anchor" href="#das-projekt"><i class="fa fa-link" aria-hidden="true"></i></a>Das Projekt</h1>
+<p>Das Projekt entstand im Rahmen einer Belegarbeit, innerhalb des Moduls &quot;Business Process Automation&quot;. Inhalt dieses Moduls ist laut Modulbeschreibung die Auseinandersetzung mit der Automatisierung von Gesch&#xE4;ftsprozessen und ein Einblick in SOAP sowie REST Architekturen. F&#xFC;r die Bearbeitung wurde eine grobe Vision durch den Professor vorgestellt und konnte durch eine selbstorganisierte Gruppenleistung angefertigt werden.</p>
+<h2 id="grundlagen"><a name="grundlagen" class="plugin-anchor" href="#grundlagen"><i class="fa fa-link" aria-hidden="true"></i></a>Grundlagen</h2>
+<h2 id="vision"><a name="vision" class="plugin-anchor" href="#vision"><i class="fa fa-link" aria-hidden="true"></i></a>Vision</h2>
+<p>F&#xFC;r den Beleg in BPA sollte eine Infrastruktur entstehen, an der verschieden Clients mittels Realisierung eines bekannten EIP ( Enterprise Integration Pattern) kommunizieren. Die Technologiewahl stand frei. Wir setzten &#xFC;ber den gesamten Beleg hinweg konsequent auf Open Source Technologien mit ausreichender Community und gut dokumentierten Quellen, um auch eine Weiterarbeit sp&#xE4;terer Gruppen zu erm&#xF6;glichen.</p>
+<p><em>TODO: Hier Bild der Arhcitektur</em></p>
+
                                 
                                 </section>
                             
@@ -526,12 +534,12 @@ Das Verzeichnis <strong>files/default</strong> beinhaltet Dateien wie Textdateie
 
             
                 
-                <a href="UeberChef.html" class="navigation navigation-prev " aria-label="Previous page: Ziel dieses Buches">
+                <a href="ZielDesBuches.html" class="navigation navigation-prev " aria-label="Previous page: Ziel dieses Buches">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="Grundlagen.html#struktur" class="navigation navigation-next " aria-label="Next page: Verzeichnis Struktur">
+                <a href="DasProjekt.html#Grundlagen" class="navigation navigation-next " aria-label="Next page: Grundladen">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -542,7 +550,7 @@ Das Verzeichnis <strong>files/default</strong> beinhaltet Dateien wie Textdateie
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Chef Grundlagen","level":"1.3","depth":1,"next":{"title":"Verzeichnis Struktur","level":"1.3.1","depth":2,"anchor":"#struktur","path":"Einführung/Grundlagen.md","ref":"./Einführung/Grundlagen.md#struktur","articles":[]},"previous":{"title":"Ziel dieses Buches","level":"1.2","depth":1,"path":"Einführung/UeberChef.md","ref":"./Einführung/UeberChef.md","articles":[]},"dir":"ltr"},"config":{"plugins":["expandable-chapters","anchors"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"expandable-chapters":{},"anchors":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"language":"de","gitbook":"*"},"file":{"path":"Einführung/Grundlagen.md","mtime":"2018-06-20T05:37:37.805Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-06-20T05:37:39.056Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Das Projekt","level":"1.3","depth":1,"next":{"title":"Grundladen","level":"1.3.1","depth":2,"anchor":"#Grundlagen","path":"Einführung/DasProjekt.md","ref":"./Einführung/DasProjekt.md#Grundlagen","articles":[]},"previous":{"title":"Ziel dieses Buches","level":"1.2","depth":1,"path":"Einführung/ZielDesBuches.md","ref":"./Einführung/ZielDesBuches.md","articles":[]},"dir":"ltr"},"config":{"plugins":["expandable-chapters","anchors"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"expandable-chapters":{},"anchors":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"language":"de","gitbook":"*"},"file":{"path":"Einführung/DasProjekt.md","mtime":"2018-06-20T15:36:11.393Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-06-20T15:36:12.650Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
